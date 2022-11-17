@@ -1,0 +1,25 @@
+{
+  "name": "retter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b .",
+    "test": "ava __tests__"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.189",
+    "@types/node": "14.17.2",
+    "lodash": "^4.17.21",
+    "ava": "4.0.1",
+    "ts-node": "10.4.0",
+    "tsconfig-paths": "^3.13.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1255.0",
+    "dotenv": "16.0.0"
+  }
+}
